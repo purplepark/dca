@@ -1,7 +1,7 @@
 # dca
 
 INTRO:
-This is a nodeJs server I built that is set to automatically purchase $5 worth of bitcoin every 6 hours, indefinitely. It does one purchase when you turn on the server, and then another purchase every 6 hours.
+This is a nodeJs server I built that is set to automatically purchase $5 worth of bitcoin on Coinbase Pro, every 6 hours, indefinitely. It does one purchase when you turn on the server, and then another purchase every 6 hours.
 
 
 You can change the amount by changing the dollarAmountToBuy variable in app.js file. You can change the frequency by changing the milliseconds that are listed in app.js around line 37.
